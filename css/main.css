@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+
+}
+body {
+    display: grid;
+    height: 100%;
+    place-items: center;
+    background-color: #2A628F;
+    overflow: hidden;
+}
+.contenedor {
+    margin: 20px auto;
+    background-color: #f7f7f7;
+    width: 350px;
+    height: auto;
+    border-radius: 6.5px;
+    max-width: fit-content;
+    /* Para que sea responsive se ajusta el ancho máximo y los márgenes adaptativos */ 
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.contenedor .titulo {
+    line-height: 80px; 
+    background-color:  #13293D;
+    border-radius: 5px 5px 0 0;
+    padding-left: 0;
+    color: #F1FAEE;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+}
+
+.formulario {
+    padding: 35px 35px 25px 35px;
+}
+
+.formulario .fila1 {
+    height: 45px;
+    padding-bottom: 5px;
+    position: relative;
+}
+
+.elements {
+    font-size: 13px;
+    padding-right: 15px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    overflow: none;
+    color: black;
+}
+
+.formulario .fila1 input {
+    border-radius: 14px;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    border-style: 0.5px solid #f1f1f1f1;
+    padding-left: 35px;
+    padding-top: 10px;
+    outline: none;
+    border: none;
+    overflow: hidden;
+}
+
+
+.formulario .fila1 .icono {
+    position: absolute;
+    width: 28px;
+    height: 100%;
+    padding-left: 8px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: rgb(44, 44, 44);
+    border: none;
+}
+
+.botonnn{
+    
+        display:flex;
+        height:20px;
+        width:120px !important;
+        justify-content:center;
+        align-items:center;
+        
+      
+}
+
+.card {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+}
+
+.fila1 button {
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: #13293d;
+    color: #f1f1f1f1;
+    font-weight: 500;
+}
+
+.perfil{
+    
+        width:200px;
+        display: inline-block;
+      
+}
+
+.parrafo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.register {
+    text-decoration: none;
+    padding-left: 2.2px;
+    color: #2A628F;
+    font-weight: 600;
+}
+
+.titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#div-boton-submit {
+    margin-top: 12px;
+    font-size: 9px;
+
+}
+
